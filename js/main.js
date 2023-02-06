@@ -114,7 +114,7 @@ function gridInit() {
 
 //up
 document.addEventListener("DOMContentLoaded", () => {
-  let toUp = document.querySelector(".to-up");
+  let toUp = document.querySelector(".up");
 
   window.onscroll = function () {
     if (window.pageYOffset > 350) {
@@ -132,7 +132,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-//load animation
+// animation on load
 function onLoadPage() {
   window.addEventListener('load', () => {
     document.documentElement.add('loaded');
