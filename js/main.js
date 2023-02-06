@@ -131,3 +131,10 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+//load animation
+function onLoadPage() {
+  window.addEventListener('load', () => {
+    document.documentElement.add('loaded');
+  });
+}

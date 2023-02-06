@@ -7,12 +7,19 @@
 }
 
 .header {
+    opacity: 0;
+}
+.loaded .header {
     position: absolute;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 50;
     background-color: rgba(0, 0, 0, 0.2);
+
+    transform: translate(0, 0);
+    opacity: 1;
+    transition: transform 7s ease, opacity 7s ease;
 }
 
 .header__container {

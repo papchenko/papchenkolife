@@ -32,10 +32,17 @@ main {
 }
 
 .title {
+opacity: 0;
+}
+.loaded .title{
     font-weight: 700;
     line-height: 127.777778%;
     color: #ffffff;
-    font-size: 1.2rem;
+    font-size: 2rem;
+
+    transform: translate(0, 0);
+    opacity: 1;
+    transition: transform 9s ease, opacity 9s ease;
 }
 
 .title_dark {
@@ -43,9 +50,15 @@ main {
 }
 
 .text {
+    opacity: 0;
+}
+.loaded .text {
     font-size: .75rem;
     line-height: 166.666667%;
-    /* 20/12 */
+
+    transform: translate(0, 0);
+    opacity: 1;
+    transition: transform 10s ease, opacity 10s ease;
 }
 
 .links {

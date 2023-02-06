@@ -19,8 +19,17 @@
 }
 
 .article__title {
-    font-size: 1.5625rem;
+    opacity: 0;
+}
+.loaded .article__title {
+    font-size: 2rem;
+    font-weight: 500;
     margin-bottom: 2.8125rem;
+    color: var(--light-green);
+
+    transform: translate(0, 0);
+    opacity: 1;
+    transition: transform 8s ease, opacity 4s ease;
 }
 
 .articles__filter {
@@ -28,15 +37,22 @@
 }
 
 .filter-articles {
+    opacity: 0;
+}
+.loaded .filter-articles{
     display: -webkit-flex;
     align-items: center;
     column-gap: 1.5625rem;
     row-gap: 0.3125rem;
     flex-wrap: wrap;
+
+    transform: translate(0, 0);
+    opacity: 1;
+    transition: transform 6s ease, opacity 6s ease;
 }
 
 .filter-articles__item {
-    font-size: 0.75rem;
+    font-size: 1rem;
     line-height: 2;
     color: #c4c4c4;
     transition: all 0.3s;
@@ -102,11 +118,10 @@
     font-size: 0.75rem;
     font-weight: 300;
     line-height: 1.6;
-
 }
 
 .article__link-title {
-    color: #212529;
+    color: var(--dark-blue);
     line-height: 1.5;
 }
 
