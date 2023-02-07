@@ -36,6 +36,7 @@
     opacity: 0;
 }
 .loaded .main-slider__slide {
+    margin-top: 48px;
     flex-shrink: 0;
     position: relative;
     overflow: hidden;
@@ -54,6 +55,7 @@
     left: 0;
     object-fit: cover;
     opacity: 0.8;
+    border-bottom: 0.075rem solid #c4c4c4;
 }
 
 .main-slider__container {

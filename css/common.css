@@ -75,7 +75,6 @@ opacity: 0;
     }
 }
 
-/* ----------------------------- */
 [data-item] {
     transform: translate(0rem, 3.125rem);
     opacity: 0;
