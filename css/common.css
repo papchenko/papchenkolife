@@ -10,7 +10,8 @@ body {
     color: #495057;
     font-family: Lora, serif;
     font-size: .875rem;
-    background: #F8F9FA;
+    /* background: #F8F9FA; */
+    background: #ffffff;
 }
 
 .wrapper {
