@@ -55,7 +55,6 @@
     left: 0;
     object-fit: cover;
     opacity: 0.8;
-    border-bottom: 0.075rem solid #c4c4c4;
 }
 
 .main-slider__container {

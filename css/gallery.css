@@ -50,6 +50,20 @@
     opacity: 1;
     transition: transform 6s ease, opacity 6s ease;
 }
+@media (max-width: 767.98px) {
+
+    .loaded .article__title {
+        text-align: center;
+    }
+    .loaded .filter-articles{
+        justify-content: center;
+        align-items: center;
+    }
+    .article__date {
+        margin-top: -24px;
+        text-align: center;
+        }
+}
 
 .filter-articles__item {
     font-size: 1rem;
@@ -116,12 +130,16 @@
 
 .article__date {
     font-size: 0.75rem;
+    text-align: center;
     font-weight: 300;
     line-height: 1.6;
 }
 
 .article__link-title {
     color: var(--dark-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     line-height: 1.5;
 }
 
