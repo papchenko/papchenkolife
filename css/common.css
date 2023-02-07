@@ -10,14 +10,13 @@ body {
     color: #495057;
     font-family: Lora, serif;
     font-size: .875rem;
-    /* background: #F8F9FA; */
-    background: #ffffff;
+    background: #F8F9FA;
 }
 
 .wrapper {
     min-height: 100%;
     overflow: clip;
-    display: -webkit-flex;
+    display: flex;
     flex-direction: column;
 }
 
