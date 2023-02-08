@@ -56,7 +56,7 @@
 @media (max-width: 767.98px) {
 
     .loaded .article__title {
-        text-align: center;
+        text-align: left;
     }
     .loaded .filter-articles{
         justify-content: center;
