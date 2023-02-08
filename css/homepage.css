@@ -44,8 +44,8 @@
     transform: translate(0, 0);
     opacity: 1;
     transition: transform 1.3s ease, opacity 1.3s ease;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .main-slider-bg {
