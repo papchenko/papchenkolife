@@ -56,11 +56,11 @@
     top: 0;
     left: 0;
     object-fit: cover;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .main-slider__container {
-    min-height: 75vh;
+    min-height: 90vh;
     z-index: 2;
     position: relative;
     display: flex;
