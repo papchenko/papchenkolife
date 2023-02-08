@@ -35,11 +35,6 @@
     z-index: 2;
     border-bottom: 0.005rem solid #49505707;
   }
-  @media (max-width: 767.98px) {
-  .sticky-header{
-    /* border: none; */
-  }
-  }
   .sticky-header.fixed {
     position: fixed;
     top: 0;
