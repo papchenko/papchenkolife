@@ -60,7 +60,7 @@
 }
 
 .main-slider__container {
-    min-height: 90vh;
+    min-height: 85vh;
     z-index: 2;
     position: relative;
     display: flex;
