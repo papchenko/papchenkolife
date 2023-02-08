@@ -55,8 +55,14 @@
 }
 @media (max-width: 767.98px) {
 
+    .gallery-title {
+        padding-top: 0.700rem;
+    }
+
     .loaded .article__title {
-        text-align: left;
+        text-align: center;
+        margin-top: 0rem;
+        margin-left: 0rem;
     }
     .loaded .filter-articles{
         justify-content: center;
