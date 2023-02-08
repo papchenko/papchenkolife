@@ -60,7 +60,7 @@
 }
 
 .main-slider__container {
-    min-height: 93vh;
+    min-height: 75vh;
     z-index: 2;
     position: relative;
     display: flex;
@@ -283,7 +283,7 @@
 }
 
 .article__text {
-    padding-top: 1.25rem;
+    padding-top: 4rem;
     display: grid;
     gap: 1.875rem;
     line-height: 178.571429%;
@@ -296,7 +296,7 @@
 
 @media (max-width: 767.98px) {
     .article__text p {
-        padding-top: 1rem;
+        padding-top: 2rem;
         font-size: 0.875rem;
     }
 }
