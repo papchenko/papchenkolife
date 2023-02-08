@@ -19,27 +19,28 @@
 </head>
 
 <body>
-    <div class="wrapper">
-        <header class="header">
-            <div class="header__container">
-                <nav class="header__menu menu">
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            <a href="index.html" class="menu__link">Home</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="gallery.html" class="menu__link active">Gallery</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <!--  -->
         <div class="wrapper">
+            <h1 class="article__title">Gallery</h1>
+            <!--  -->
+            <section class="container">
+                <div class="sticky-header">
+                    <div class="header__container">
+                        <nav class="header__menu menu">
+                            <ul class="menu__list">
+                                <li class="menu__item">
+                                    <a href="index.html" class="menu__link active">Home</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="gallery.html" class="menu__link">Gallery</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <!--  -->
             <main class="page">
                 <section class="articles">
                     <div class="articles__container">
-                        <h1 class="article__title">Gallery</h1>
                         <div class="articles__filter filter-articles">
                             <button data-filter="*" class="filter-articles__item active" type="button">Show All</button>
                             <button data-filter="travel" class="filter-articles__item" type="button">Travel</button>
@@ -274,7 +275,6 @@
                     </div>
                 </section>
             </main>
-        </div>
         <!--  -->
         <footer class="footer">
             <div class="footer__container">

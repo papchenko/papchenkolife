@@ -24,7 +24,10 @@
 .loaded .article__title {
     font-size: 2rem;
     font-weight: 500;
-    margin-bottom: 2.8125rem;
+    margin-bottom: 0.625rem;
+    margin-top: 2.5rem;
+    margin-left: 3.125rem;
+    text-align: left;
     color: #495057;
 
     transform: translate(0, 0);

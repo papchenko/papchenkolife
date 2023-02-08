@@ -138,3 +138,26 @@ function onLoadPage() {
     document.documentElement.add('loaded');
   });
 }
+
+// sticky header
+var container = document.querySelector('.container');
+var stickySidebar = document.querySelector('.sticky-header');
+
+document.addEventListener('scroll', function() {
+  stickify(container, stickySidebar);
+});
+
+function stickify(wrapper, stickyEl) {
+  var wrapperRect = wrapper.getBoundingClientRect();
+  var stickyRect = stickyEl.getBoundingClientRect();
+  var windowHeight = window.innerHeight;
+  
+  if (wrapperRect.bottom < windowHeight) {
+    stickyEl.classList.add('bottom');
+  } else if (wrapperRect.top < 0) {
+    stickyEl.classList.add('fixed');
+  } else if (stickyRect.top <= wrapperRect.top) {
+    stickyEl.classList.remove('fixed');
+    stickyEl.classList.remove('bottom');
+  }
+}

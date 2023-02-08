@@ -20,20 +20,7 @@
 
 <body>
     <div class="wrapper">
-        <header class="header">
-            <div class="header__container">
-                <nav class="header__menu menu">
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            <a href="index.html" class="menu__link active">Home</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="gallery.html" class="menu__link">Gallery</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+
         <!--  -->
         <main class="home">
             <div class="home__section">
@@ -80,6 +67,23 @@
                             <div class="bullets__items"></div>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <!--  -->
+            <section class="container">
+            <div class="sticky-header">
+                <div class="header__container">
+                    <nav class="header__menu menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="index.html" class="menu__link active">Home</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="gallery.html" class="menu__link">Gallery</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
             <!--  -->
@@ -162,22 +166,21 @@
         </main>
         <!--  -->
         <footer class="footer">
+            <div data-anim class="footer__social social">
+                <a href="https://www.linkedin.com/in/mykola-papchenko-b099461b9" target="_blank"
+                    class="social__link">
+                    <img src="resources/icons/social/linkedin.svg" alt="linkedin">
+                </a>
+                <a href="https://www.youtube.com/channel/UC7uT3nq0eD-85a1BKLBeGOA" target="_blank"
+                    class="social__link">
+                    <img src="resources/icons/social/youtube.svg" alt="youtube">
+                </a>
+                <a href="https://www.papchenko.com" target="_blank"
+                    class="social__link">
+                    <img src="resources/icons/social/papchenko.com.svg" alt="papchenko.com">
+                </a>
+            </div>
             <div class="footer__container">
-                <div data-anim class="footer__social social">
-
-                    <a href="https://www.linkedin.com/in/mykola-papchenko-b099461b9" target="_blank"
-                        class="social__link">
-                        <img src="resources/icons/social/linkedin.svg" alt="linkedin">
-                    </a>
-                    <a href="https://www.youtube.com/channel/UC7uT3nq0eD-85a1BKLBeGOA" target="_blank"
-                        class="social__link">
-                        <img src="resources/icons/social/youtube.svg" alt="youtube">
-                    </a>
-                    <a href="https://www.papchenko.com" target="_blank"
-                        class="social__link">
-                        <img src="resources/icons/social/papchenko.com.svg" alt="papchenko.com">
-                    </a>
-                </div>
                 <div class="footer__text">
                     <p>
                         Copyright &copy;
@@ -188,7 +191,9 @@
                 </div>
             </div>
         </footer>
+    </section>
     </div>
+    
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>

@@ -280,6 +280,7 @@
 }
 
 .article__text {
+
     display: grid;
     gap: 1.875rem;
     line-height: 178.571429%;
@@ -292,6 +293,7 @@
 
 @media (max-width: 767.98px) {
     .article__text p {
+        padding-top: 1rem;
         font-size: 0.875rem;
     }
 }
