@@ -24,7 +24,7 @@
     min-height: 40px;
 }
 .sticky-header {
-    /* background-color: #F8F9FA; */
+    min-height: 10vh;
     background-color: #ededee;
     height: 8vh;
     left: 0;
