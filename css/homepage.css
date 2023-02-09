@@ -52,8 +52,6 @@
     transform: translate(0, 0);
     opacity: 1;
     transition: transform 1.3s ease, opacity 1.3s ease;
-    /* border-bottom-left-radius: 2rem #ededee;
-    border-bottom-right-radius: 2rem #ededee; */
 }
 
 .main-slider-bg {

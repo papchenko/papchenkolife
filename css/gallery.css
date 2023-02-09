@@ -127,7 +127,7 @@
     }
 
     .articles__items {
-        width: auto !important;
+        /* width: auto !important; */
     }
 }
 
@@ -168,15 +168,12 @@
 }
 
 .article__link-title {
-    color: var(--dark-blue);
+    font-size: 1.125rem;
+    color: var(--dark--blue);
     display: flex;
     justify-content: center;
     align-items: center;
     line-height: 1.5;
-}
-
-.article__link-title:hover {
-    text-decoration: underline;
 }
 
 .article__text {
