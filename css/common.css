@@ -1,11 +1,17 @@
 :root {
-    --light-blue: #00adb5;
-    --dark-blue: #4682b4;
-    --light-yellow: #f9a743;
-    --dark-yellow: #e6840e;
-    --light-white: #eeeeee;
-    --light-green: #30be72;
     --dark-grey: #1e2125;
+    --light-white: #eeeeee;
+    --light-white2: #fafafa;
+    --dark--blue: #38569f;
+    --dark-blue2: #38569f;
+    --light-blue: #17bed2;
+    --light-blue2: #4682b4;
+    --light-blue3: #4586FF;
+    --light-blue4: #00adb5;
+    --dark-yellow: #ff6600;
+    --light-yellow: #f9a743;
+    --dark-yellow2: #e6840e;
+    --light-green: #30be72;
 }
 
 body {
@@ -34,9 +40,10 @@ main {
 }
 
 .title {
-opacity: 0;
+    opacity: 0;
 }
-.loaded .title{
+
+.loaded .title {
     font-weight: 700;
     line-height: 127.777778%;
     color: #ffffff;
@@ -56,6 +63,7 @@ opacity: 0;
 .text {
     opacity: 0;
 }
+
 .loaded .text {
     font-size: .75rem;
     line-height: 166.666667%;
