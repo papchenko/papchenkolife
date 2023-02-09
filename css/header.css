@@ -19,14 +19,11 @@
     justify-content: end;
     align-items: center;
     gap: .9375rem;
-    padding-top: .625rem;
-    padding-bottom: .625rem;
-    min-height: 40px;
+
 }
 .sticky-header {
-    min-height: 10vh;
+    height: 7vh;
     background-color: #ededee;
-    height: 8vh;
     left: 0;
     padding: 1em;
     position: absolute;

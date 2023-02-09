@@ -56,6 +56,7 @@
     opacity: 0;
 }
 .loaded .filter-articles{
+    padding-top: 0.9375rem;
     display: flex;
     align-items: center;
     column-gap: 1.5625rem;
