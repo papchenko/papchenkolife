@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
 
-  toUp.addEventListener("click", function () {
+  toUp.addEventListener("click", () => {
     window.scrollBy({
       top: -document.documentElement.scrollHeight,
       behavior: "smooth",
@@ -122,3 +122,10 @@ function stickify(wrapper, stickyEl) {
     stickyEl.classList.remove('bottom');
   }
 }
+
+// glbox
+const lightbox = GLightbox({
+  touchNavigation: true,
+  loop: true,
+  autoplayVideos: true
+});
