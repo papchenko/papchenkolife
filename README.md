@@ -1,2 +1,2 @@
 ![img](https://raw.githubusercontent.com/papchenko/papchenkolife/dda2c048dceeed0efa19e217d87d66464727a516/resources/papchenkolife-logo.svg)
-### papchenkolife - Website blog about work, hobby, travel
+### Website blog about work, hobby, travel
