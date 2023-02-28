@@ -3,14 +3,18 @@
 
 ##### technologies I used in creating this app
  ```
- > HTML
+ HTML
  
- - CSS
-    scss
+ CSS
+ ```
+ scss
+ ```
  
- + JavaScript
-    glightbox.js
-    swiper.js
+ JavaScript
+ ```
+ glightbox.js
+ swiper.js
+ ```
  ```
  
  
