@@ -16,7 +16,7 @@ PC / Laptop
 TV
 ```
  
- ## 
-[![N|](https://raw.githubusercontent.com/papchenko/papchenko.com/8a93b6c69500e7ef66f2ecc0e5ba122fad3a1e0e/resources/img/short-logo.svg)](http://papchenko.com/)
+## 
+[![N|](https://github.com/papchenko/papchenko.com/blob/main/resources/favicon/favicon-32x32.png?raw=true)](http://papchenko.com/)
  
  
