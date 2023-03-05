@@ -33,7 +33,7 @@
     font-size: 2.7rem;
     font-weight: 500;
     /* margin-bottom: 0.625rem; */
-    margin-top: 0.625rem;
+    margin-top: 1.25rem;
     text-align: center;
     color: var(--dark-grey);
 
@@ -74,7 +74,7 @@
 @media (max-width: 767.98px) {
 
     .gallery-title {
-        padding-top: 1rem;
+        padding-top: 1.6rem;
         font-size: 2rem;
     }
 
@@ -133,7 +133,7 @@
 @media (min-width: 768.98px) {
     .article__image {
         display: block;
-        margin-bottom: 1rem;
+        margin-bottom: 1.3rem;
         position: relative;
         border-radius: 0.1875rem;
         overflow: hidden;
@@ -182,7 +182,7 @@
 }
 
 .home__section {
-    max-height: 70px;
+    max-height: 85px;
     background-color: #d8dbe0;
 }
 
