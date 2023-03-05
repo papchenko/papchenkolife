@@ -124,7 +124,7 @@
     height: 100vh;
 }
 .video__container {
-    height: 94vh;
+    min-height: 90vh;
     min-width: 100vw;
     z-index: 2;
     position: relative;
