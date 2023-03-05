@@ -132,7 +132,7 @@
 }
 @media (max-width: 767.98px) {
     .video__container {
-        min-height: 84vh;
+        min-height: 86vh;
         min-width: 100vw;
         z-index: 2;
         position: relative;
