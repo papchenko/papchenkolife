@@ -15,10 +15,9 @@
 }
 
 body {
-    color: #495057;
-    font-family: Lora, serif;
-    font-size: .875rem;
-    background: #F8F9FA;
+    background-color: rgb(15, 26, 26);
+    color: #fafafa;
+    font-family: Raleway, serif;
 }
 
 .wrapper {

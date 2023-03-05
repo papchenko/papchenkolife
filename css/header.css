@@ -19,17 +19,15 @@
     justify-content: end;
     align-items: center;
     gap: .9375rem;
-
 }
 .sticky-header {
-    height: 7vh;
-    background-color: #ededee;
+    height: 6vh;
+    background-color: #d8dbe0;
     left: 0;
-    padding: 1em;
+    padding: 0.625rem;
     position: absolute;
     width: 100%;
     z-index: 2;
-    border-bottom: 0.005rem solid #49505707;
   }
   .sticky-header.fixed {
     position: fixed;
@@ -47,11 +45,12 @@
     column-gap: 1.5rem;
 }
 .menu__link {
-    font-size: 1.0625rem;
-    padding-bottom: 0.3125rem;
+    font-size: 16px;
+    /* padding-bottom: 10px; */
     font-weight: 700;
     color: #495057;
-    font-family: Roboto, sans-serif;
+    /* font-family: Roboto, sans-serif; */
+    font-family: Outfit, serif;
     display: inline-block;
     line-height: 1.5;
     position: relative;
@@ -60,3 +59,4 @@
 .menu__link.active {
     color: var(--dark-yellow);
 }
+

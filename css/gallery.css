@@ -30,13 +30,12 @@
     opacity: 0;
 }
 .loaded .gallery-title {
-    font-size: 2rem;
+    font-size: 2.7rem;
     font-weight: 500;
     margin-bottom: 0.625rem;
     margin-top: 2.5rem;
-    margin-left: 3.125rem;
-    text-align: left;
-    color: #495057;
+    text-align: center;
+    color: var(--dark-grey);
 
     transform: translate(0, 0);
     opacity: 1;
@@ -46,6 +45,11 @@
     color: var(--dark-blue);
     transition: color 1s ease;
     
+}
+.gallery__desc {
+    text-align: center;
+    margin-bottom: 1.875rem;
+    color: var(--dark-grey);
 }
 
 .articles__filter {
@@ -71,12 +75,11 @@
 
     .gallery-title {
         padding-top: 2rem;
-        padding-left: 1.5rem;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .loaded .gallery-title {
-        font-size: 1.5rem;
+        font-size: 2.2rem;
         margin-top: 0rem;
         margin-left: 0rem;
     }
@@ -97,15 +100,14 @@
 }
 
 .filter-articles__item {
-    font-size: 0.875rem;
+    font-size: 1.25rem;
     line-height: 2;
-    color: #c4c4c4;
     transition: all 0.3s;
 }
 
 .filter-articles__item:hover,
 .filter-articles__item.active {
-    color: #495057;
+    color: var(--dark-yellow);
 }
 
 .articles__items {
@@ -170,7 +172,7 @@
 
 .article__link-title {
     font-size: 1.125rem;
-    color: var(--dark--blue);
+    color: var(--light-green);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -181,4 +183,37 @@
     font-size: 0.75rem;
     font-weight: 300;
     line-height: 1.6;
+}
+
+.home__section {
+    background-color: #d8dbe0;
+}
+
+@media (min-width: 768.98px) {
+    .header__hr {
+        max-width: 320px; 
+        margin: 0 auto; 
+        border: none; 
+        height: 1px; 
+        background-color: #07060625;
+      }
+}
+
+@media (max-width: 767.98px) {
+    .header__hr {
+        max-width: 260px; 
+        margin: 0 auto; 
+        border: none; 
+        height: 1px; 
+        background-color: #07060625;
+      }
+}
+@media (max-width: 479.98px) {
+    .header__hr {
+        max-width: 180px; 
+        margin: 0 auto; 
+        border: none; 
+        height: 1px; 
+        background-color: #07060625;
+      }
 }
