@@ -67,6 +67,7 @@
         z-index: 3;
         color: #fff;
         font-size: 3.3rem;
+        
         font-weight: 500;
         font-family: Outfit, serif;
     
@@ -296,14 +297,15 @@
 
 .article__text {
     border-top: #00adb5;
-    width: 80%;
-    border-width: 80%;
+    /* width: 80%;
+    border-width: 80%; */
 }
 
 .article__text p {
     font-size: 1.3rem;
     line-height: 1.6;
     font-family: Poppins, serif;
+    text-align: center;
 }
 
 @media (max-width: 767.98px) {
@@ -311,6 +313,7 @@
         padding-top: .500rem;
         font-size: 1rem;
         font-family: Poppins, serif;
+        text-align: center;
     }
 }
 
@@ -320,6 +323,7 @@
     font-style: italic;
     /* line-height: 127.777778%; */
     font-weight: 700;
+    text-align: center;
 }
 
 .article__tags {
@@ -335,6 +339,9 @@
 .author {
     display: flex;
     gap: 1.0625rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .author__avatar {
