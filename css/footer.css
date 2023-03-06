@@ -37,6 +37,7 @@
   padding: 0;
   line-height: 1.2;
   font-size: 0.79rem;
+  text-align: center;
 }
 }
 @media (max-width: 479.98px) {
@@ -62,7 +63,7 @@
     background-color: #525861;
     flex: 0 0 2.65rem;
     height: 2.65rem;
-    border-radius: 10%;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,9 +84,9 @@
   
   .social__link {
     background-color: #525861;
-    flex: 0 0 2rem;
-    height: 2rem;
-    border-radius: 10%;
+    flex: 0 0 2.75rem;
+    height: 2.75rem;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
