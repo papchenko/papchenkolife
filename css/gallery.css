@@ -30,12 +30,13 @@
     opacity: 0;
 }
 .loaded .gallery-title {
-    font-size: 2.7rem;
-    font-weight: 500;
+    font-size: 2.3rem;
+    font-weight: 700;
     /* margin-bottom: 0.625rem; */
     margin-top: 1.25rem;
     text-align: center;
     color: var(--dark-grey);
+    font-family: Outfit, serif;
 
     transform: translate(0, 0);
     opacity: 1;
@@ -46,10 +47,23 @@
     transition: color 1s ease;
     
 }
-.gallery__desc {
-    text-align: center;
-    margin-bottom: 1.875rem;
-    color: var(--dark-grey);
+@media (min-width: 768.98px) {
+    .gallery__desc {
+        margin-top: 0.3125rem;
+        font-size: 0.875rem;
+        text-align: center;
+        margin-bottom: 1.875rem;
+        color: var(--dark-grey);
+    }
+}
+@media (max-width: 767.98px) {
+    .gallery__desc {
+        margin-top: 0.3125rem;
+        font-size: 0.75rem;
+        text-align: center;
+        margin-bottom: 1.875rem;
+        color: var(--dark-grey);
+    }
 }
 
 .articles__filter {
@@ -79,7 +93,7 @@
     }
 
     .loaded .gallery-title {
-        font-size: 2.2rem;
+        font-size: 2rem;
         margin-top: 0rem;
         margin-left: 0rem;
     }
@@ -100,7 +114,7 @@
 }
 
 .filter-articles__item {
-    font-size: 1.25rem;
+    font-size: 1rem;
     line-height: 2;
     transition: all 0.3s;
 }
@@ -168,7 +182,7 @@
 
 .article__link-title {
     font-size: 1.125rem;
-    color: var(--light-green);
+    color: var(--light-yellow);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -181,12 +195,20 @@
     line-height: 1.6;
 }
 
-.home__section {
-    max-height: 85px;
-    background-color: #d8dbe0;
+@media (min-width: 768.98px) {
+    .home__section {
+        max-height: 7.5rem;
+        background-color: #d8dbe0;
+    }
+}
+@media (max-width: 767.98px) {
+    .home__section {
+        max-height: 6.875rem;
+        background-color: #d8dbe0;
+    }
 }
 
-@media (min-width: 768.98px) {
+/* @media (min-width: 768.98px) {
     .header__hr {
         max-width: 320px; 
         margin: 0 auto; 
@@ -194,9 +216,9 @@
         height: 1px; 
         background-color: #07060625;
       }
-}
+} */
 
-@media (max-width: 767.98px) {
+/* @media (max-width: 767.98px) {
     .header__hr {
         max-width: 260px; 
         margin: 0 auto; 
@@ -213,4 +235,4 @@
         height: 1px; 
         background-color: #07060625;
       }
-}
+} */
