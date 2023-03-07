@@ -143,3 +143,17 @@ SmoothScroll({
     pulseNormalize   : 1,
     touchpadSupport   : true,
 })
+
+// goto
+const smoothLinks = document.querySelectorAll('a[href^="#go"]');
+for (let smoothLink of smoothLinks) {
+    smoothLink.addEventListener('click', function (e) {
+        e.preventDefault();
+        const id = smoothLink.getAttribute('href');
+
+        document.querySelector(id).scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    });
+};

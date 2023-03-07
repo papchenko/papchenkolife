@@ -91,7 +91,6 @@
     color: #fff;
     font-size: 2.5rem;
     font-weight: 500;
-
     transform: translate(0, 0);
     opacity: 1;
     transition: transform 1.2s ease, opacity 1.2s ease;
@@ -303,7 +302,7 @@
 
 .article__text p {
     font-size: 1.3rem;
-    line-height: 1.6;
+    line-height: 1.8;
     font-family: Poppins, serif;
     text-align: center;
 }
@@ -416,4 +415,28 @@
 
 .article__related {
     background-color: rgba(229, 229, 229, 0.3);
+}
+
+
+.loaded .scroll__to:hover {
+    transform: translate(0, 0.3125rem);
+    transition: transform 0.8s ease;
+}
+
+
+.scroll__to {
+    transform: translate(0px, 5rem);
+    opacity: 0;
+}
+.loaded .scroll__to{
+    background: url(../resources/icons/nav/scroll.svg) center no-repeat;   
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12.5rem;
+    background-size: 3.5rem;
+    transform: translate(0, 0);
+    opacity: 1;
+    transition: transform 3.2s ease, opacity 1.2s ease;
 }
