@@ -427,27 +427,48 @@
 .article__related {
     background-color: rgba(229, 229, 229, 0.3);
 }
-
-
-.loaded .scroll__to:hover {
-    transform: translate(0, 0.3125rem);
-    transition: transform 0.8s ease;
-}
-
-
+/*  */
 .scroll__to {
     transform: translate(0px, 5rem);
     opacity: 0;
 }
+.loaded .scroll__to:hover {
+    transform: translate(0, 0.3125rem);
+    transition: transform 0.8s ease;
+}
 .loaded .scroll__to{
-    background: url(../resources/icons/nav/scroll.svg) center no-repeat;   
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
-    padding-top: 12.5rem;
+    padding-top: 6.875rem;
     background-size: 3.5rem;
     transform: translate(0, 0);
-    opacity: 1;
+    opacity: 0.75;
     transition: transform 1.6s ease, opacity 1.2s ease;
 }
+.mousey {
+    width: 3px;
+    padding: 5px 10px;
+    height: 28px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    opacity: 0.75;
+    box-sizing: content-box;
+  }
+  .scroller {
+    width: 3px;
+    height: 6px;
+    border-radius: 25%;
+    background-color: #fff;
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+    animation-iteration-count: infinite;
+  }
+  @keyframes scroll {
+    0% { opacity: 0; }
+    10% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(15px); opacity: 0;}
+  }
+  /*  */
