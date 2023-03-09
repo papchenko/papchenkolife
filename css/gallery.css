@@ -43,8 +43,9 @@
     transition: transform 1.3s ease, opacity 1.3s ease;
 }
 .gallery-title:hover {
-    color: var(--dark-blue);
-    transition: color 1s ease;
+    color: var(--dark-yellow);
+    transform: scale(1.2);
+    transition: color 1s ease scale 1s ease;
     
 }
 @media (min-width: 768.98px) {
