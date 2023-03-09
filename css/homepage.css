@@ -233,6 +233,7 @@
     top: 0;
     left: 0;
     background-color: #060707a6;
+    border-radius: 83px;
 }
 
 .image-related__image img {
