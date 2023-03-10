@@ -32,7 +32,6 @@
 .loaded .gallery-title {
     font-size: 2.3rem;
     font-weight: 700;
-    /* margin-bottom: 0.625rem; */
     margin-top: 1.25rem;
     text-align: center;
     color: var(--dark-grey);
