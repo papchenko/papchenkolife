@@ -174,7 +174,7 @@ const ssMoveTo = function(){
   
   const moveTo = new MoveTo({
       tolerance: 0,
-      duration: 1800,
+      duration: 1300,
       easing: 'easeInOutCubic',
       container: window
   }, easeFunctions);

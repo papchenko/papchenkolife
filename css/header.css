@@ -16,7 +16,7 @@
 
 .header__container {
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
     gap: .9375rem;
 
@@ -58,4 +58,28 @@
 
 .menu__link.active {
     color: var(--dark-yellow);
+}
+
+
+@media (min-width: 768.98px) {
+  .market__btn {
+    font-family: Play, sans-serif;
+    font-size: 12px;
+    font-weight : 700;
+    border      : 0.124rem solid var(--dark-grey);
+    color       : var(--dark-grey);
+    padding      : 0.1875rem 0.675rem;
+    border-radius: 20px;
+  }
+}
+@media (max-width: 767.98px) {
+  .market__btn {
+    font-family: Play, sans-serif;
+    font-size: 0.5rem;
+    font-weight : 700;
+    border      : 0.124rem solid var(--dark-grey);
+    color       : var(--dark-grey);
+    padding      : 0.25rem 0.375rem;
+    border-radius: 20px;
+  }
 }
