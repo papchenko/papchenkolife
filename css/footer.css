@@ -26,10 +26,11 @@
   line-height: 128.571429%;
 }
 
-@media (max-width: 768.98px) {
+@media (min-width: 768.98px) {
   .footer__text p{
     /* padding-left: 6.25rem; */
-    font-size: 1rem;
+    font-size: 0.800rem;
+    text-align: center;
   }
 }
 @media (max-width: 767.98px) {
