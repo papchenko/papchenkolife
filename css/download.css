@@ -29,6 +29,9 @@ justify-content: center;
         width: 200px;
         margin: 0 20px;
     }
+    .section-download__badges img:hover {
+        transform: scale(1.07);
+    }
 }
 @media (max-width: 767.98px) {
     .section-download__badges img {

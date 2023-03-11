@@ -64,22 +64,22 @@
 @media (min-width: 768.98px) {
   .market__btn {
     font-family: Play, sans-serif;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight : 700;
-    border      : 0.124rem solid var(--dark-grey);
-    color       : var(--dark-grey);
+    border      : 0.125rem solid #969ea7;
+    color       : #969ea7;
     padding      : 0.1875rem 0.675rem;
-    border-radius: 20px;
+    border-radius: 0.5rem;
   }
 }
 @media (max-width: 767.98px) {
   .market__btn {
     font-family: Play, sans-serif;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     font-weight : 700;
-    border      : 0.124rem solid var(--dark-grey);
-    color       : var(--dark-grey);
+    border      : 0.125rem solid #969ea7;
+    color       : #969ea7;
     padding      : 0.25rem 0.375rem;
-    border-radius: 20px;
+    border-radius: 0.5rem;
   }
 }
