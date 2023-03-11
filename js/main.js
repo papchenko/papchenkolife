@@ -186,3 +186,7 @@ const ssMoveTo = function(){
 };
 
 ssMoveTo();
+
+document.addEventListener('DOMContentLoaded', () => {
+  window.scrollTo(0, 757);
+});
