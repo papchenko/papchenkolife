@@ -191,9 +191,9 @@ ssMoveTo();
 
 
 
-if (isTouch !== 1) {
+// if (isTouch !== 1) {
 window.onload = function()
             {   
             setTimeout(function(){ window.scrollTo( 0, 869 ) });                                       
          }
-        }
+        // }
