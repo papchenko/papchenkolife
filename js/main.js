@@ -190,5 +190,6 @@ ssMoveTo();
 const loadBlock = document.querySelector('.video__container');
 document.addEventListener('DOMContentLoaded', function () {
   loadBlock.scrollIntoView({
+    block: 'start'
 });
 })
