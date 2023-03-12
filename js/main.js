@@ -74,24 +74,24 @@ function gridInit() {
 }
 
 //up
-// document.addEventListener("DOMContentLoaded", () => {
-//   let toUp = document.querySelector(".up");
+document.addEventListener("DOMContentLoaded", () => {
+  let toUp = document.querySelector(".up");
 
-//   window.onscroll = function () {
-//     if (window.pageYOffset > 350) {
-//       toUp.style.display = "block";
-//     } else {
-//       toUp.style.display = "none";
-//     }
-//   };
+  window.onscroll = function () {
+    if (window.pageYOffset > 1300) {
+      toUp.style.display = "block";
+    } else {
+      toUp.style.display = "none";
+    }
+  };
 
-//   toUp.addEventListener("click", () => {
-//     window.scrollBy({
-//       top: -document.documentElement.scrollHeight,
-//       behavior: "smooth",
-//     });
-//   });
-// });
+  toUp.addEventListener("click", () => {
+    window.scrollBy({
+      top: -document.documentElement.scrollHeight,
+      behavior: "smooth",
+    });
+  });
+});
 
 // animation on load
 function onLoadPage() {
