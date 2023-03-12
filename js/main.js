@@ -189,14 +189,11 @@ ssMoveTo();
 
 
 
-const one =  document.querySelector('.video__container');
-const get = one.getBoundingClientRect().top;
-const get2 = get + window.pageYOffset;
-console.log(get);
-console.log(get2);
 
 
-const contents = document.querySelector('.video__container');
-document.addEventListener('DOMContentLoaded', () => {
-  window.scrollTo(0, 640);
-});
+if (isTouch !== 1) {
+window.onload = function()
+            {   
+            setTimeout(function(){ window.scrollTo( 0, 869 ) });                                       
+         }
+        }
