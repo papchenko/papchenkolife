@@ -74,24 +74,24 @@ function gridInit() {
 }
 
 //up
-document.addEventListener("DOMContentLoaded", () => {
-  let toUp = document.querySelector(".up");
+// document.addEventListener("DOMContentLoaded", () => {
+//   let toUp = document.querySelector(".up");
 
-  window.onscroll = function () {
-    if (window.pageYOffset > 350) {
-      toUp.style.display = "block";
-    } else {
-      toUp.style.display = "none";
-    }
-  };
+//   window.onscroll = function () {
+//     if (window.pageYOffset > 350) {
+//       toUp.style.display = "block";
+//     } else {
+//       toUp.style.display = "none";
+//     }
+//   };
 
-  toUp.addEventListener("click", () => {
-    window.scrollBy({
-      top: -document.documentElement.scrollHeight,
-      behavior: "smooth",
-    });
-  });
-});
+//   toUp.addEventListener("click", () => {
+//     window.scrollBy({
+//       top: -document.documentElement.scrollHeight,
+//       behavior: "smooth",
+//     });
+//   });
+// });
 
 // animation on load
 function onLoadPage() {
@@ -186,3 +186,14 @@ const ssMoveTo = function(){
 };
 
 ssMoveTo();
+
+const loadBlock = document.querySelector('.video__container');
+document.addEventListener('DOMContentLoaded', function () {
+  loadBlock.scrollIntoView({
+});
+})
+const loadBlock2 = document.querySelector('.home__section');
+document.addEventListener('DOMContentLoaded', function () {
+  loadBlock2.scrollIntoView({
+});
+})
