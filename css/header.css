@@ -23,7 +23,9 @@
 }
 .sticky-header {
     height: 7vh;
-    background-color: #d8dbe0;
+    /* background-color: #d8dbe0; */
+    /* correct */
+    background-color: rgb(15, 20, 26);
     left: 0;
     padding: 1em;
     position: absolute;
@@ -49,7 +51,9 @@
     font-size: 1.0625rem;
     padding-bottom: 5px;
     font-weight: 700;
-    color: #495057;
+    /* color: #495057; */
+    /* correct */
+    color: var(--light-white);
     font-family: Poppins, sans-serif;
     display: inline-block;
     /* line-height: 1.5; */
@@ -111,7 +115,9 @@
 #burger-menu span,
 #burger-menu span:before,
 #burger-menu span:after {
-  background: var(--dark-grey);
+  /* background: var(--dark-grey); */
+  /* correct */
+  background-color: var(--light-white);
   display: block;
   height: 3.900px;
   opacity: 1;
