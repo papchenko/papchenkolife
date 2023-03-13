@@ -235,3 +235,7 @@
         background-color: #07060625;
       }
 } */
+
+.galery__hidden-app {
+    visibility: hidden;
+}
