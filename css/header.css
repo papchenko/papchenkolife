@@ -141,7 +141,7 @@
 
 #burger-menu.close span {
   transform: rotate(45deg);
-  top: 13px;
+  top: 4.5px;
   width: 27px;
   background: var(--dark-yellow);
 }
