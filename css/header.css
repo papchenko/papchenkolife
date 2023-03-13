@@ -131,12 +131,12 @@
 #burger-menu span:before {
   left: 0.690rem;
   top: -10px;
-  width: 21px;
+  width: 22px;
 }
 #burger-menu span:after {
   left: 0.430rem;
   top: 10px;
-  width: 25px;
+  width: 26px;
 }
 
 #burger-menu.close span {
