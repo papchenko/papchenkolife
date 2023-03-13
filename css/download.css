@@ -1,4 +1,4 @@
- .section-download {
+ /* .section-download {
     opacity: 0;
 }
 .section-download.active{
@@ -9,6 +9,11 @@
     transform: translate(0, 0);
     opacity: 1;
     transition: all 0.8s;
+} */
+.section-download {
+    background-color : hsla(144, 37%, 39%, 1);
+    min-width: 100vw;
+    min-height: 100vh;
 }
 .section-download h2 {
     padding-top: 300px;
