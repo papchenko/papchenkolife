@@ -11,8 +11,7 @@
     transition: all 0.8s;
 } */
 .section-download {
-    /* background-color : hsla(144, 37%, 39%, 1); */
-    background-color : rgb(47, 133, 81);
+    background-color : hsla(144, 37%, 39%, 1);
     min-width: 100vw;
     min-height: 100vh;
 }

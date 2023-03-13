@@ -19,6 +19,7 @@
     justify-content: space-between;
     align-items: center;
     gap: .9375rem;
+
 }
 .sticky-header {
     height: 7vh;
