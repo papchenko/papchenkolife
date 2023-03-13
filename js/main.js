@@ -187,10 +187,10 @@ const ssMoveTo = function(){
 
 ssMoveTo();
 
+// load home block
 const loadBlock = document.querySelector('.video__container');
 document.addEventListener('DOMContentLoaded', function () {
   loadBlock.scrollIntoView({
-    block: 'start'
 });
 })
 
