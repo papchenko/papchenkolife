@@ -35,7 +35,7 @@
     margin-top: 1.25rem;
     text-align: center;
     /* color: var(--dark-grey); */
-    /* correct */
+    /* header v2 */
     color: var(--light-white);
     font-family: Outfit, serif;
 
@@ -55,7 +55,7 @@
         text-align: center;
         margin-bottom: 1.875rem;
         /* color: var(--dark-grey); */
-        /* correct */
+        /* header v2 */
         color: var(--light-white);
     }
 }
@@ -66,7 +66,7 @@
         text-align: center;
         margin-bottom: 1.875rem;
         /* color: var(--dark-grey); */
-        /* correct */
+        /* header v2 */
         color: var(--light-white);
     }
 }
@@ -204,7 +204,7 @@
     .home__section {
         max-height: 7.5rem;
         /* background-color: #d8dbe0; */
-        /* correct */
+        /* header v2 */
         background-color: rgb(15, 20, 26);
     }
 }
@@ -212,7 +212,7 @@
     .home__section {
         max-height: 6.875rem;
         /* background-color: #d8dbe0; */
-        /* correct */
+        /* header v2 */
         background-color: rgb(15, 20, 26);
     }
 }

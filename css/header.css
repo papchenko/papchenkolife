@@ -24,7 +24,7 @@
 .sticky-header {
     height: 7vh;
     /* background-color: #d8dbe0; */
-    /* correct */
+    /* header v2 */
     background-color: rgb(15, 20, 26);
     left: 0;
     padding: 1em;
@@ -52,7 +52,7 @@
     padding-bottom: 5px;
     font-weight: 700;
     /* color: #495057; */
-    /* correct */
+    /* header v2 */
     color: var(--light-white);
     font-family: Poppins, sans-serif;
     display: inline-block;
@@ -116,7 +116,7 @@
 #burger-menu span:before,
 #burger-menu span:after {
   /* background: var(--dark-grey); */
-  /* correct */
+  /* header v2 */
   background-color: var(--light-white);
   display: block;
   height: 3.900px;
