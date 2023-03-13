@@ -124,6 +124,7 @@
 }
 #burger-menu span {
   right: 0;
+  left: 1px;
   top: 4.5px;
   width: 33px;
   border-radius: 0.0825rem;
