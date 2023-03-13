@@ -235,3 +235,10 @@
         background-color: #07060625;
       }
 } */
+
+.hidden__header-app{
+
+}
+.market__btn {
+    visibility: hidden;
+}
