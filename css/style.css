@@ -30,11 +30,6 @@ background-color: #d8dbe0;
 body._color-mode .menu__link {
     color: #495057;
 }
-/* body._color-mode #burger-menu span,
-#burger-menu span:before,
-#burger-menu span:after {
-  background: #495057;
-} */
 body._color-mode .home__section {
     background-color: #d8dbe0;
 }
