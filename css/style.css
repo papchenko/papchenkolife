@@ -44,7 +44,14 @@ body._color-mode .gallery-title {
     color: var(--dark-grey);
 }
 
-
+/* TOOLS */
+.tools {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.625rem;
+}
+/* 1 */
 @media (min-width: 768.98px) {
     .color__mode {
         margin: 0rem 0rem 2rem 0rem;
@@ -52,7 +59,7 @@ body._color-mode .gallery-title {
         padding-top: 2.3rem;
         display: block;
         background: url(../resources/icons/nav/color.svg) center no-repeat;
-        background-size: 32px;
+        background-size: 38px;
         transform: translate(0, 0);
         opacity: 1;
         transition: transform 1s ease, opacity 1s ease;
@@ -78,3 +85,27 @@ body._color-mode .gallery-title {
         transform: scale(1.22);
       }
 }
+/* 2 */
+@media (min-width: 768.98px) {
+    .vibro__mode {
+       visibility: hidden;
+      }
+}
+
+@media (max-width: 767.98px) {
+    .vibro__mode {
+        margin: -2rem 0rem 1rem 0rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+        display: block;
+        background: url(../resources/icons/nav/vibro.svg) center no-repeat;
+        background-size: 26px;
+        transform: translate(0, 0);
+        opacity: 1;
+        transition: transform 1s ease, opacity 1s ease;
+      }
+      .vibro__mode:hover {
+        transform: scale(1.22);
+      }
+}
+/* TOOLS */
