@@ -113,7 +113,11 @@
 #burger-menu span,
 #burger-menu span:before,
 #burger-menu span:after {
+<<<<<<< HEAD
   background: hsla(179, 94%, 19%, 1);
+=======
+  background: #ff6600;
+>>>>>>> 47bbdc32b906de520f8ec2ed3c3a40d6ad136027
   display: block;
   height: 3.900px;
   opacity: 1;

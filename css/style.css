@@ -30,7 +30,12 @@ background-color: #d8dbe0;
 body._color-mode .menu__link {
     color: #495057;
 }
+<<<<<<< HEAD
 /* body._color-mode #burger-menu span,
+=======
+/*
+body._color-mode #burger-menu span,
+>>>>>>> 47bbdc32b906de520f8ec2ed3c3a40d6ad136027
 #burger-menu span:before,
 #burger-menu span:after {
   background: #495057;
