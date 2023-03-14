@@ -24,13 +24,12 @@
 .sticky-header {
     height: 7vh;
     /* background-color: #d8dbe0; */
-    /* header v2 */
-    background-color: rgb(15, 20, 26);
+    background-color: rgb(15, 23, 26);
     left: 0;
     padding: 1em;
     position: absolute;
     width: 100%;
-    z-index: 2;
+    z-index: 5;
   }
   .sticky-header.fixed {
     position: fixed;
@@ -52,7 +51,6 @@
     padding-bottom: 5px;
     font-weight: 700;
     /* color: #495057; */
-    /* header v2 */
     color: var(--light-white);
     font-family: Poppins, sans-serif;
     display: inline-block;
@@ -115,9 +113,7 @@
 #burger-menu span,
 #burger-menu span:before,
 #burger-menu span:after {
-  /* background: var(--dark-grey); */
-  /* header v2 */
-  background-color: var(--light-white);
+  background: var(--light-white);
   display: block;
   height: 3.900px;
   opacity: 1;
