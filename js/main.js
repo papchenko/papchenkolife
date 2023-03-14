@@ -269,3 +269,27 @@ function colorMode() {
 }
 colorMode();
 
+// mobi vibro
+let doVibro = Boolean(localStorage.getItem('doVibro') === '0' ? 0 : 1) || false;
+
+document.getElementById("vibro_on").addEventListener('click', () => {
+  switchVibro(true);
+});
+
+// document.getElementById("vibro_off").addEventListener('click', () => {
+//   switchVibro(false);
+// });
+
+const list = document.getElementsByClassName('doVibro');
+
+for (let i = 0; i < list.length; i++) {
+    list[i].addEventListener('click', (e) => {
+      doVibro ? navigator.vibrate([50]) : navigator.vibrate([0]);
+     })
+}
+
+
+function switchVibro(bool) {
+  doVibro = Boolean(bool);
+  localStorage.setItem('doVibro', bool ? '1' : '0')
+}
