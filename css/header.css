@@ -113,7 +113,7 @@
 #burger-menu span,
 #burger-menu span:before,
 #burger-menu span:after {
-  background: var(--light-white);
+  background: hsla(179, 94%, 9%, 1);
   display: block;
   height: 3.900px;
   opacity: 1;
