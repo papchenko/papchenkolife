@@ -284,7 +284,7 @@ const list = document.getElementsByClassName('doVibro');
 
 for (let i = 0; i < list.length; i++) {
     list[i].addEventListener('click', (e) => {
-      doVibro ? navigator.vibrate([50]) : navigator.vibrate([0]);
+      doVibro ? navigator.vibrate([5]) : navigator.vibrate([0]);
      })
 }
 
