@@ -8,3 +8,59 @@
 /* need restructure */
 @import url(glightbox-popup.css);
 /* need restructure */
+:root {
+    --dark-grey: #1e2125;
+    --light-white: #eeeeee;
+    --light-white2: #fafafa;
+    --dark--blue: #38569f;
+    --dark-blue2: #38569f;
+    --light-blue: #17bed2;
+    --light-blue2: #4682b4;
+    --light-blue3: #4586FF;
+    --light-blue4: #00adb5;
+    --dark-yellow: #ff6600;
+    --light-yellow: #f9a743;
+    --dark-yellow2: #e6840e;
+    --light-green: #30be72;
+}
+/* color theme */
+body._color-mode .sticky-header {
+background-color: #d8dbe0;
+}
+body._color-mode .menu__link {
+    color: #495057;
+}
+body._color-mode #burger-menu span,
+#burger-menu span:before,
+#burger-menu span:after {
+  background: #495057;
+}
+body._color-mode .home__section {
+    background-color: #d8dbe0;
+}
+body._color-mode .section-download {
+    /* background-color : hsla(359, 50%, 50%, 1); */
+    background-color : hsla(19, 89%, 64%, 1);
+}
+body._color-mode .gallery__desc {
+    color: var(--dark-grey);
+}
+body._color-mode .gallery-title {
+    color: var(--dark-grey);
+}
+
+
+.color__mode {
+    margin: 0rem 0rem 2rem 0rem;
+    padding-right: 2.3rem;
+    padding-top: 2.3rem;
+    display: block;
+    background: url(../resources/icons/nav/color.svg) center no-repeat;
+    background-size: 32px;
+    transform: translate(0, 0);
+    opacity: 1;
+    transition: transform 1s ease, opacity 1s ease;
+  }
+  .color__mode:hover {
+    transform: scale(1.22);
+  }
