@@ -273,12 +273,12 @@ colorMode();
 let doVibro = Boolean(localStorage.getItem('doVibro') === '0' ? 0 : 1) || false;
 
 document.getElementById("vibro_on").addEventListener('click', () => {
-  switchVibro(true);
+  switchVibro(true)
 });
 
-// document.getElementById("vibro_off").addEventListener('click', () => {
-//   switchVibro(false);
-// });
+document.getElementById("vibro_off").addEventListener('click', () => {
+  switchVibro(false)
+});
 
 const list = document.getElementsByClassName('doVibro');
 

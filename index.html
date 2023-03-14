@@ -50,7 +50,7 @@
                 <div class="video__text">
                     <p class="video-title">Video of the Month</p>
                     <p class="video__sub-title">Carpathian Trip!</p>
-                    <a href="https://youtu.be/B86GDp56JmQ" class="play-video video__play glightbox"></a>
+                    <a onclick="vibro()" href="https://youtu.be/B86GDp56JmQ" class="play-video video__play glightbox doVibro"></a>
                     <a href="#go" class="scroll__to smoothscroll">
                         <div class="mousey">
                             <div class="scroller"></div>
@@ -64,10 +64,10 @@
             <section class="container">
             <div class="sticky-header">
                 <div class="header__container">
-                    <a onclick="vibro()" href="#download" class="market__btn smoothscroll">Get The App</a>
+                    <a onclick="vibro()" href="#download" class="market__btn smoothscroll doVibro">Get The App</a>
 
 
-                    <div onclick="vibro()" id="burger-menu">
+                    <div onclick="vibro()" id="burger-menu" class="doVibro">
                         <span></span>
                       </div>
                       <div id="menu">
@@ -246,10 +246,13 @@
         <footer class="footer">
 
             <div class="tools">
-                <a onclick="vibro()" class="color__mode">
+                <a onclick="vibro()" class="color__mode doVibro">
                     <span></span>
                 </a>
-                <a onclick="vibro()" class="vibro__mode" id="vibro_on">
+                <a onclick="vibro()" class="vibro__mode doVibro" id="vibro_on">on
+                    <span></span>
+                </a>
+                <a class="vibro__mode" id="vibro_off">off
                     <span></span>
                 </a>
             </div>
