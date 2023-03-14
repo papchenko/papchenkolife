@@ -320,16 +320,31 @@ video {
     display : none;
 }
 
-.modal-popup__details {
-    background-color : var(--color-1-dark);
-    font-size        : var(--text-xs);
-    line-height      : var(--vspace-1_25);
-    color            : white;
-    padding          : 0 1.2rem;
-    position         : absolute;
-    top              : var(--vspace-1);
-    left             : var(--vspace-1);
-    font-family: Outfit, serif;
+@media (min-width: 768.98px) {
+    .modal-popup__details {
+        background-color : var(--color-1-dark);
+        font-size        : var(--text-xs);
+        line-height      : var(--vspace-1_25);
+        color            : white;
+        padding          : 0 1.2rem;
+        position         : absolute;
+        top              : var(--vspace-1);
+        left             : var(--vspace-1);
+        font-family: Outfit, serif;
+    }
+}
+@media (max-width: 767.98px) {
+    .modal-popup__details {
+        background-color : var(--color-1-dark);
+        font-size: 16px;
+        line-height: 3.5;
+        color: white;
+        padding: 0 1.2rem;
+        position: absolute;
+        top: 40px;
+        left: 18px;
+        font-family: Outfit, serif;
+    }
 }
 
 .modal-popup__details:focus,

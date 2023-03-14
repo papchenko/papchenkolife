@@ -30,11 +30,11 @@ background-color: #d8dbe0;
 body._color-mode .menu__link {
     color: #495057;
 }
-body._color-mode #burger-menu span,
+/* body._color-mode #burger-menu span,
 #burger-menu span:before,
 #burger-menu span:after {
   background: #495057;
-}
+} */
 body._color-mode .home__section {
     background-color: #d8dbe0;
 }
@@ -50,17 +50,36 @@ body._color-mode .gallery-title {
 }
 
 
-.color__mode {
-    margin: 0rem 0rem 2rem 0rem;
-    padding-right: 2.3rem;
-    padding-top: 2.3rem;
-    display: block;
-    background: url(../resources/icons/nav/color.svg) center no-repeat;
-    background-size: 32px;
-    transform: translate(0, 0);
-    opacity: 1;
-    transition: transform 1s ease, opacity 1s ease;
-  }
-  .color__mode:hover {
-    transform: scale(1.22);
-  }
+@media (min-width: 768.98px) {
+    .color__mode {
+        margin: 0rem 0rem 2rem 0rem;
+        padding-right: 2.3rem;
+        padding-top: 2.3rem;
+        display: block;
+        background: url(../resources/icons/nav/color.svg) center no-repeat;
+        background-size: 32px;
+        transform: translate(0, 0);
+        opacity: 1;
+        transition: transform 1s ease, opacity 1s ease;
+      }
+      .color__mode:hover {
+        transform: scale(1.22);
+      }
+}
+
+@media (max-width: 767.98px) {
+    .color__mode {
+        margin: -2rem 0rem 1rem 0rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+        display: block;
+        background: url(../resources/icons/nav/color.svg) center no-repeat;
+        background-size: 26px;
+        transform: translate(0, 0);
+        opacity: 1;
+        transition: transform 1s ease, opacity 1s ease;
+      }
+      .color__mode:hover {
+        transform: scale(1.22);
+      }
+}
