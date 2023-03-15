@@ -284,7 +284,11 @@ const list = document.getElementsByClassName('doVibro');
 
 for (let i = 0; i < list.length; i++) {
     list[i].addEventListener('click', (e) => {
+<<<<<<< HEAD
       doVibro ? navigator.vibrate([3]) : navigator.vibrate([0]);
+=======
+      doVibro ? navigator.vibrate([1]) : navigator.vibrate([0]);
+>>>>>>> 89ac4346ef15cc412e24b43b52b524ea9b9a236e
      })
 }
 
