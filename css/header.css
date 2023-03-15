@@ -23,7 +23,7 @@
 }
 .sticky-header {
     height: 7vh;
-    /* background-color: rgb(15, 23, 26); */
+    /* background-color: #d8dbe0; */
     background-color: rgb(15, 23, 26);
     left: 0;
     padding: 1em;
@@ -113,7 +113,7 @@
 #burger-menu span,
 #burger-menu span:before,
 #burger-menu span:after {
-  background-color: #777d85;
+  background-color: #9aa1aa;
   display: block;
   height: 3.900px;
   opacity: 1;
