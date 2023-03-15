@@ -108,4 +108,26 @@ body._color-mode .gallery-title {
         transform: scale(1.22);
       }
 }
+@media (min-width: 768.98px) {
+    .vibro__mode2 {
+       visibility: hidden;
+      }
+}
+
+@media (max-width: 767.98px) {
+    .vibro__mode2 {
+        margin: -2rem 0rem 1rem 0rem;
+        padding-right: 0.75rem;
+        padding-top: 2rem;
+        display: block;
+        background: url(../resources/icons/nav/vibro.svg) center no-repeat;
+        background-size: 26px;
+        transform: translate(0, 0);
+        opacity: 1;
+        transition: transform 1s ease, opacity 1s ease;
+      }
+      .vibro__mode:hover {
+        transform: scale(1.22);
+      }
+}
 /* TOOLS */
