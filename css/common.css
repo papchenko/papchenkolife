@@ -156,11 +156,11 @@ main {
 }
 @media (max-width: 767.98px) {
     .s-intro__scroll {
-        margin-bottom: 120px;
+        margin-bottom: 20px;
         width         : 16rem;
         height        : 8rem;
         padding-right : 3rem;
-        border-right  : 1px dashed rgba(255, 255, 255, 0.3);
+        /* border-right  : 1px dashed rgba(255, 255, 255, 0.3); */
         text-align    : right;
         position      : absolute;
         bottom        : 0;
@@ -191,13 +191,14 @@ main {
 }
 @media (max-width: 767.98px) {
     .s-intro__scroll .end-top {
-        background-color : white;
+        /* background-color : white;
         width            : 6px;
         height           : 6px;
         border-radius    : 50%;
         position         : absolute;
         top              : -6px;
-        right            : -4px;
+        right            : -4px; */
+        display: none;
     }
 }
 
