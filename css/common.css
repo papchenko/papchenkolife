@@ -203,10 +203,10 @@ main {
 
 .end-top {
     background-color : white;
-    width            : 5px;
-    height           : 5px;
-    border-radius    : 50%;
-    margin-left: 0.54rem;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin-left: 0.56rem;
     margin-top: 30px;
     margin-bottom: -1.895rem;
 }
@@ -222,8 +222,8 @@ main {
     }
 
     20% {
-        -webkit-transform : translateY(-5px);
-        transform         : translateY(-5px);
+        -webkit-transform : translateY(-4px);
+        transform         : translateY(-4px);
     }
 
     40% {
@@ -243,8 +243,8 @@ main {
     }
 
     20% {
-        -webkit-transform : translateY(-5px);
-        transform         : translateY(-5px);
+        -webkit-transform : translateY(-4px);
+        transform         : translateY(-4px);
     }
 
     40% {
