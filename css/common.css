@@ -187,7 +187,7 @@ main {
     }
 }
 
- .mouse::before {
+ /* .mouse::before {
     content          : "";
     display          : block;
     height           : 5px;
@@ -198,6 +198,18 @@ main {
     position         : absolute;
     top              : 6px;
     left             : 50%;
+} */
+
+
+.end-top {
+
+    background-color : white;
+    width            : 6px;
+    height           : 5px;
+    border-radius    : 50%;
+    margin-left: 0.55rem;
+    margin-top: 30px;
+    margin-bottom: -1.895rem;
 }
 @-webkit-keyframes vertical {
 
