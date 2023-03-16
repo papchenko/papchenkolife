@@ -142,103 +142,36 @@ main {
   }
 /* --------------------------------------------- SCROLL v1 END------------------------------------------------ */
 /* --------------------------------------------- SCROLL v2 ------------------------------------------------ */
-@media (min-width: 768.98px) {
-    .s-intro__scroll {
-        margin-bottom: 0.625rem;
-        width         : 20rem;
-        height        : 6.2rem;
-        padding-right : 3rem;
-        /* border-right  : 2px dashed rgba(255, 255, 255, 0.3); */
-        text-align    : right;
-        position      : absolute;
-        bottom        : 0;
-        display: none;
-    }
-}
-@media (max-width: 767.98px) {
-    .s-intro__scroll {
-        margin-bottom: 1.875rem;
-        width         : 10rem;
-        height        : 6rem;
-        padding-right : 3rem;
-        /* border-right  : 1px dashed rgba(255, 255, 255, 0.3); */
-        text-align    : left;
-        position      : absolute;
-        bottom        : 0;
-    }
-}
 
-@media (min-width: 768.98px) {
-    .s-intro__scroll .scroll-text {
+
+
+     .scroll-text {
         color: var(--light-white2);
         font-size: 14px;
-        padding-left: 230px;
-        /* padding-top: 2.3rem; */
         }
-}
-@media (max-width: 767.98px) {
-    .s-intro__scroll .scroll-text {
-        color: var(--light-white2);
-        font-size: 12px;
-        padding-left: 100px;
-        /* padding-top: 2.3rem; */
-        }
-}
 
-@media (min-width: 768.98px) {
-    .s-intro__scroll .end-top {
+
+
+
+     .end-top {
         display: none;
     }
-}
-@media (max-width: 767.98px) {
-    .s-intro__scroll .end-top {
-        /* background-color : white;
-        width            : 6px;
-        height           : 6px;
-        border-radius    : 50%;
-        position         : absolute;
-        top              : -6px;
-        right            : -4px; */
-        display: none;
-    }
+
+
+
+ .mouse {
+    height            : 2.8rem;
+    width             : 1.8rem;
+    border            : 3px solid white;
+    border-radius     : 20px;
+    display           : flex;
+    text-align        : center;
+    -webkit-animation : vertical 3s ease infinite;
+    animation         : vertical 3s ease infinite;
+
 }
 
-@media (min-width: 768.98px) {
-    .s-intro__scroll .mouse {
-        z-index           : 2;
-        height            : 2.2rem;
-        width             : 1.4rem;
-        border            : 3px solid white;
-        border-radius     : 20px;
-        display           : block;
-        text-align        : center;
-        position          : absolute;
-        right             : -1rem;
-        top               : 1.4rem;
-        -webkit-animation : vertical 3s ease infinite;
-        animation         : vertical 3s ease infinite;
-    
-    }
-}
-@media (max-width: 767.98px) {
-    .s-intro__scroll .mouse {
-        z-index           : 2;
-        height            : 2.8rem;
-        width             : 1.8rem;
-        border            : 3px solid white;
-        border-radius     : 20px;
-        display           : block;
-        text-align        : center;
-        position          : absolute;
-        right             : -1rem;
-        top               : 1.4rem;
-        -webkit-animation : vertical 3s ease infinite;
-        animation         : vertical 3s ease infinite;
-    
-    }
-}
-
-.s-intro__scroll .mouse::before {
+ .mouse::before {
     content          : "";
     display          : block;
     height           : 5px;
