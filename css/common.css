@@ -142,23 +142,13 @@ main {
   }
 /* --------------------------------------------- SCROLL v1 END------------------------------------------------ */
 /* --------------------------------------------- SCROLL v2 ------------------------------------------------ */
-
-
-
      .scroll-text {
         color: var(--light-white2);
         font-size: 14px;
+        padding-top: 150px;
+        padding-bottom: 20px;
+        opacity: 0.4;
         }
-
-
-
-
-     .end-top {
-        display: none;
-    }
-
-
-
  .mouse {
     height            : 2.8rem;
     width             : 1.8rem;
