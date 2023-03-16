@@ -156,6 +156,7 @@ main {
 }
 @media (max-width: 767.98px) {
     .s-intro__scroll {
+        margin-bottom: 120px;
         width         : 16rem;
         height        : 8rem;
         padding-right : 3rem;
