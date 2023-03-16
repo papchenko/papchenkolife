@@ -162,9 +162,9 @@ main {
 }
 @media (min-width: 768.98px) {
     .mouse {
-        height            : 2.5rem;
-        width             : 1.5rem;
-        border            : 3px solid white;
+        height            : 2.55rem;
+        width             : 1.55rem;
+        border            : 2.8px solid white;
         border-radius     : 20px;
         display           : flex;
         text-align        : center;
@@ -175,9 +175,9 @@ main {
 }
 @media (max-width: 767.98px) {
     .mouse {
-        height            : 2.4rem;
-        width             : 1.4rem;
-        border            : 3px solid white;
+        height            : 2.44rem;
+        width             : 1.44rem;
+        border            : 2.8px solid white;
         border-radius     : 16px;
         display           : flex;
         text-align        : center;
@@ -202,15 +202,15 @@ main {
 
 
 .end-top {
-
     background-color : white;
-    width            : 6px;
+    width            : 5px;
     height           : 5px;
     border-radius    : 50%;
-    margin-left: 0.55rem;
+    margin-left: 0.5rem;
     margin-top: 30px;
     margin-bottom: -1.895rem;
 }
+
 @-webkit-keyframes vertical {
 
     0%,
