@@ -306,4 +306,6 @@ function vibroMobile() {
       }
     }
   }
+  
+  vibroMobile();
 
