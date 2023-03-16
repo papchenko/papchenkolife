@@ -114,7 +114,7 @@ main {
     /* background-size: 3.5rem; */
     transform: translate(0, 0);
     opacity: 0.75;
-    transition: transform 0.3s ease, opacity 1.2s ease;
+    transition: transform 0.8s ease, opacity 1.2s ease;
 }
 .mousey {
     width: 3px;
@@ -154,22 +154,37 @@ main {
 @media (max-width: 767.98px) {
     .scroll-text {
         color: var(--light-white2);
-        font-size: 14px;
+        font-size: 10px;
         padding-top: 60px;
         padding-bottom: 20px;
         opacity: 0.4;
         }
 }
- .mouse {
-    height            : 2.8rem;
-    width             : 1.8rem;
-    border            : 3px solid white;
-    border-radius     : 20px;
-    display           : flex;
-    text-align        : center;
-    -webkit-animation : vertical 3s ease infinite;
-    animation         : vertical 3s ease infinite;
-
+@media (min-width: 768.98px) {
+    .mouse {
+        height            : 2.8rem;
+        width             : 1.8rem;
+        border            : 3px solid white;
+        border-radius     : 20px;
+        display           : flex;
+        text-align        : center;
+        -webkit-animation : vertical 3s ease infinite;
+        animation         : vertical 3s ease infinite;
+    
+    }
+}
+@media (max-width: 767.98px) {
+    .mouse {
+        height            : 2.4rem;
+        width             : 1.4rem;
+        border            : 3px solid white;
+        border-radius     : 16px;
+        display           : flex;
+        text-align        : center;
+        -webkit-animation : vertical 3s ease infinite;
+        animation         : vertical 3s ease infinite;
+    
+    }
 }
 
  .mouse::before {
