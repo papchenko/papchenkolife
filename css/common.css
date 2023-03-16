@@ -145,10 +145,10 @@ main {
 @media (min-width: 768.98px) {
     .scroll-text {
         color: var(--light-white2);
-        font-size: 14px;
+        font-size: 10px;
         padding-top: 150px;
-        padding-bottom: 20px;
-        opacity: 0.4;
+        padding-bottom: 14px;
+        opacity: 0.44;
         }
 }
 @media (max-width: 767.98px) {
@@ -157,13 +157,13 @@ main {
         font-size: 9px;
         padding-top: 60px;
         padding-bottom: 10px;
-        opacity: 0.4;
+        opacity: 0.44;
         }
 }
 @media (min-width: 768.98px) {
     .mouse {
-        height            : 2.8rem;
-        width             : 1.8rem;
+        height            : 2.5rem;
+        width             : 1.5rem;
         border            : 3px solid white;
         border-radius     : 20px;
         display           : flex;
