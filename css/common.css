@@ -164,7 +164,7 @@ main {
     .mouse {
         height            : 2.55rem;
         width             : 1.55rem;
-        border            : 2.8px solid white;
+        border            : 3px solid white;
         border-radius     : 20px;
         display           : flex;
         text-align        : center;
@@ -177,7 +177,7 @@ main {
     .mouse {
         height            : 2.44rem;
         width             : 1.44rem;
-        border            : 2.8px solid white;
+        border            : 3px solid white;
         border-radius     : 16px;
         display           : flex;
         text-align        : center;
@@ -206,7 +206,7 @@ main {
     width            : 5px;
     height           : 5px;
     border-radius    : 50%;
-    margin-left: 0.5rem;
+    margin-left: 0.54rem;
     margin-top: 30px;
     margin-bottom: -1.895rem;
 }
