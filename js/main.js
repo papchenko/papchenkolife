@@ -269,27 +269,41 @@ function colorMode() {
 }
 colorMode();
 
-// mobi vibro
-let doVibro = Boolean(localStorage.getItem('doVibro') === '0' ? 0 : 1) || false;
+// mobi vibro v1
+// let doVibro = Boolean(localStorage.getItem('doVibro') === '0' ? 0 : 1) || false;
 
-document.getElementById("vibro_on").addEventListener('click', () => {
-  switchVibro(true)
-});
+// document.getElementById("vibro_on").addEventListener('click', () => {
+//   switchVibro(true)
+// });
 
-document.getElementById("vibro_off").addEventListener('click', () => {
-  switchVibro(false)
-});
+// document.getElementById("vibro_off").addEventListener('click', () => {
+//   switchVibro(false)
+// });
 
-const list = document.getElementsByClassName('doVibro');
+// const list = document.getElementsByClassName('doVibro');
 
-for (let i = 0; i < list.length; i++) {
-    list[i].addEventListener('click', (e) => {
-      doVibro ? navigator.vibrate([8]) : navigator.vibrate([0]);
-     })
-}
+// for (let i = 0; i < list.length; i++) {
+//     list[i].addEventListener('click', (e) => {
+//       doVibro ? navigator.vibrate([8]) : navigator.vibrate([0]);
+//      })
+// }
+// function switchVibro(bool) {
+//   doVibro = Boolean(bool);
+//   localStorage.setItem('doVibro', bool ? '1' : '0')
+// }
 
+// mobi vibro v2
+function vibroMobile() {
 
-function switchVibro(bool) {
-  doVibro = Boolean(bool);
-  localStorage.setItem('doVibro', bool ? '1' : '0')
-}
+  const vibro = document.querySelectorAll('.vibro__button');
+  const media = matchMedia('(max-width: 767px)');
+  
+    if(media.matches) {
+      for (let i = 0; i < vibro.length; i++) {
+        vibro[i].addEventListener('click', (e) => {
+        navigator.vibrate(8);
+        });
+      }
+    }
+  }
+

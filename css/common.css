@@ -96,7 +96,8 @@ main {
     opacity: 1;
     transition: all 0.8s;
 }
-/* --------------------------------------------- SCROLL v1 ------------------------------------------------ */
+
+/* scroll v1 */
 .scroll__to {
     transform: translate(0px, 5rem);
     opacity: 0;
@@ -140,8 +141,8 @@ main {
     10% { transform: translateY(0); opacity: 1; }
     100% { transform: translateY(15px); opacity: 0;}
   }
-/* --------------------------------------------- SCROLL v1 END------------------------------------------------ */
-/* --------------------------------------------- SCROLL v2 ------------------------------------------------ */
+
+/* scroll v2 */
 @media (min-width: 768.98px) {
     .scroll-text {
         color: var(--light-white2);
@@ -186,7 +187,6 @@ main {
     
     }
 }
-
  /* .mouse::before {
     content          : "";
     display          : block;
@@ -199,8 +199,6 @@ main {
     top              : 6px;
     left             : 50%;
 } */
-
-
 .end-top {
     background-color : white;
     width: 5px;
@@ -210,9 +208,7 @@ main {
     margin-top: 30px;
     margin-bottom: -1.895rem;
 }
-
 @-webkit-keyframes vertical {
-
     0%,
     60%,
     80%,
@@ -220,20 +216,16 @@ main {
         -webkit-transform : translateY(0);
         transform         : translateY(0);
     }
-
     20% {
         -webkit-transform : translateY(-4px);
         transform         : translateY(-4px);
     }
-
     40% {
         -webkit-transform : translateY(20px);
         transform         : translateY(20px);
     }
 }
-
 @keyframes vertical {
-
     0%,
     60%,
     80%,
@@ -241,15 +233,37 @@ main {
         -webkit-transform : translateY(0);
         transform         : translateY(0);
     }
-
     20% {
         -webkit-transform : translateY(-4px);
         transform         : translateY(-4px);
     }
-
     40% {
         -webkit-transform : translateY(20px);
         transform         : translateY(20px);
     }
 }
-/* --------------------------------------------- SCROLL v2 END------------------------------------------------ */
+
+/* tooltip */
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    width: 120px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    position: absolute;
+    z-index: 1000000;
+    line-height: 1.3;
+  }
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
