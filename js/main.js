@@ -301,11 +301,11 @@ function vibroMobile() {
     if(media.matches) {
       for (let i = 0; i < vibro.length; i++) {
         vibro[i].addEventListener('click', (e) => {
-        navigator.vibrate(8);
+        navigator.vibrate(4);
         });
       }
     }
   }
-  
+
   vibroMobile();
 
