@@ -295,13 +295,13 @@ colorMode();
 // mobi vibro v2
 function vibroMobile() {
 
-  const vibro = document.querySelectorAll('.vibro__button');
+  const vibro = document.querySelectorAll('.mobi-vibro');
   const media = matchMedia('(max-width: 767px)');
   
     if(media.matches) {
       for (let i = 0; i < vibro.length; i++) {
         vibro[i].addEventListener('click', (e) => {
-        navigator.vibrate(2);
+        navigator.vibrate(1);
         });
       }
     }

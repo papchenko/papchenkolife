@@ -81,9 +81,9 @@ body._color-mode .gallery-title {
         opacity: 1;
         transition: transform 1s ease, opacity 1s ease;
       }
-      .color__mode:hover {
+      /* .color__mode:hover {
         transform: scale(1.22);
-      }
+      } */
 }
 /* 2 */
 @media (min-width: 768.98px) {
