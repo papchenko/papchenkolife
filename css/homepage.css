@@ -414,3 +414,16 @@
 .article__related {
     background-color: rgba(229, 229, 229, 0.3);
 }
+
+.scroll-text {
+    opacity: 0;
+  }
+  .loaded .scroll-text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.75;
+    transition: opacity 3.8s ease;
+  }
+  
