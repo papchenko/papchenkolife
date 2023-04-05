@@ -1,2 +1,13 @@
-![img](https://raw.githubusercontent.com/papchenko/papchenkolife/7721eb8da93173ea25dee9dd8536d29af4d4c62b/resources/papchenkolife-logo.svg)
-### Website blog about work, hobby, travel
+![img](https://raw.githubusercontent.com/papchenko/papchenkolife/379e6daea0c9e9d7b91666efe8220ac82c610a52/resources/papchenkolife-logo.svg)
+
+### Blog about Travel, Hobby + Gallery
+
+###### Responsive / Adaptive
+```
+Mobile
+PC / Laptop
+TV
+```
+
+## 
+[![N|](https://github.com/papchenko/papchenko.com/blob/main/resources/favicon/favicon-32x32.png?raw=true)](http://papchenko.com/)
