@@ -1,6 +1,6 @@
 ![img](https://raw.githubusercontent.com/papchenko/papchenkolife/379e6daea0c9e9d7b91666efe8220ac82c610a52/resources/papchenkolife-logo.svg)
 
-### Blog + Gallery
+### Blog / Gallery
 
 ###### Responsive / Adaptive
 ```
